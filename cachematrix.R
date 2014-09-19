@@ -4,7 +4,7 @@
 ## save, change, and display matrix and inverse-matrix data
 
 makeCacheMatrix <- function(x = numeric(), nrows, ncols) {
-        #create a matrix from the function variables (in a global environment so that the check above works)        
+        #create a matrix from the function variables        
         m <- matrix(x, nrows, ncols)
         
         #create an empty variable to store the inverted matrix later
